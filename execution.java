@@ -42,7 +42,7 @@ public class execution {
 			 cartBadgeCountvalidation = new CartBadgeCountValidation  (getDriver());
 		}
 
-	/*	@Test(priority = 1)
+		@Test(priority = 1)
 		public void login() throws InterruptedException {
 			loginPage.enterUser("standard_user");
 			loginPage.enterPassword("secret_sauce");
@@ -141,7 +141,7 @@ public class execution {
 			lockedoutuserValidation.Lockedoutuser();
 			
 			Thread.sleep(5000);	
-		}*/
+		}
 		
 		@Test(priority = 8)
 		public void CartBadgeCountValidation() throws InterruptedException {
